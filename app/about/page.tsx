@@ -65,6 +65,44 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
+
+        <div className="mt-16 grid grid-cols-1 gap-12 sm:grid-cols-2">
+          <div>
+            <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+              Education
+            </h2>
+            <div className="mt-6 flex flex-col gap-4">
+              {about.education.map((item) => (
+                <div key={item.school}>
+                  <p className="font-medium text-neutral-900 dark:text-neutral-100">
+                    {item.school}
+                  </p>
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-300">
+                    {item.credential}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+              Speaking
+            </h2>
+            <div className="mt-6 flex flex-col gap-4">
+              {about.speaking.map((item) => (
+                <div key={item.title}>
+                  <p className="font-medium text-neutral-900 dark:text-neutral-100">
+                    {item.title}
+                  </p>
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-300">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   );

@@ -1,61 +1,95 @@
 export const siteConfig = {
-  name: "Jordan Blake",
-  title: "Marketing Professional",
+  name: "Joseph Arguello",
+  title: "Marketing Director",
   tagline:
-    "I build growth campaigns that turn attention into revenue — across paid social, video, and lifecycle marketing.",
+    "I build integrated brand and go-to-market strategy across CPG, retail, DTC, and lifestyle categories — turning product launches into cross-channel campaigns that drive measurable revenue growth.",
   email: "joem.arguello@gmail.com",
-  location: "Austin, TX",
+  phone: "(760) 685-6859",
+  location: "San Marcos, CA",
   social: {
-    linkedin: "https://linkedin.com/in/example",
-    twitter: "https://twitter.com/example",
-    instagram: "https://instagram.com/example",
+    linkedin: "https://www.linkedin.com/in/joseph-arguello",
   },
   about: {
     intro:
-      "I'm a marketing professional with over 7 years of experience planning and executing campaigns for consumer and B2B brands. I specialize in performance marketing, video-led storytelling, and turning campaign data into decisions the whole team can act on.",
+      "Marketing leader with 11+ years building integrated brand and go-to-market strategy across CPG, retail, DTC, and lifestyle categories. I have a proven track record translating product launches into cohesive, cross-channel campaigns spanning retail, CRM, paid media, and brand storytelling, while managing budgets, agencies, and cross-functional teams to deliver measurable revenue growth.",
     highlights: [
       {
-        title: "Performance Marketing",
+        title: "Brand & Integrated Marketing",
         description:
-          "Paid social, search, and programmatic campaigns optimized for CAC and LTV, not just clicks.",
+          "Brand strategy and positioning, integrated campaign leadership, go-to-market and product launch strategy, and retail and wholesale channel strategy.",
       },
       {
-        title: "Video & Content Strategy",
+        title: "Go-To-Market, CRM & Growth Strategy",
         description:
-          "Scripting, briefing, and distributing video content that performs across YouTube, TikTok, and paid placements.",
+          "Omni-channel campaign execution, CRM and lifecycle marketing, seasonal product launches, and retail, DTC, and eCommerce alignment optimized for KPIs and ROI.",
       },
       {
-        title: "Lifecycle & CRM",
+        title: "Vendor, Agency & Project Management",
         description:
-          "Email and lifecycle programs that turn one-time buyers into repeat customers.",
+          "Cross-functional leadership across sales, product, and creative; vendor and agency management; retail rollout coordination; and budget and timeline management.",
       },
       {
-        title: "Analytics & Reporting",
+        title: "Digital & eCommerce Optimization",
         description:
-          "Dashboards and attribution models that connect marketing spend to pipeline and revenue.",
+          "Digital merchandising and PDP optimization, content and creative strategy, paid media and performance marketing, and influencer and ambassador programs.",
       },
     ],
     experience: [
       {
-        role: "Senior Marketing Manager",
-        company: "Northwind Consumer Goods",
-        period: "2022 — Present",
+        role: "Marketing Director",
+        company: "Pizza Port Brewing Company",
+        period: "09/2025 — Present",
         summary:
-          "Own paid and organic acquisition strategy across four product lines, managing a $2.4M annual media budget.",
+          "Own integrated marketing strategy across brand, retail, DTC, CRM, and paid media for a $20M portfolio spanning seven locations and four-state distribution, driving 1.3M+ in reach while leading go-to-market for 23 annual product releases.",
+      },
+      {
+        role: "Senior Marketing Manager",
+        company: "Pizza Port Brewing Company",
+        period: "08/2023 — 09/2025",
+        summary:
+          "Drove $4M+ in incremental revenue through integrated brand and performance campaigns, delivering a 45% lift in engagement while reducing CPA by 8% across paid social, influencer, and digital channels.",
       },
       {
         role: "Marketing Manager",
-        company: "Brightloop",
-        period: "2019 — 2022",
+        company: "Pizza Port Brewing Company",
+        period: "07/2021 — 06/2023",
         summary:
-          "Led campaign strategy and video content production for a Series B SaaS company, scaling demo requests 3x.",
+          "Increased digital and retail reach by 30% through integrated campaign planning, managing agency partners across paid search, programmatic, and retargeting to improve ROI.",
       },
       {
-        role: "Marketing Associate",
-        company: "Fieldstone Agency",
-        period: "2017 — 2019",
+        role: "Senior Marketing Coordinator",
+        company: "Pizza Port Brewing Company",
+        period: "03/2017 — 07/2021",
         summary:
-          "Supported paid social and email campaigns for a portfolio of retail and hospitality clients.",
+          "Managed creative production workflows and led a brand refresh and rollout across media and retail channels, aligning assets with go-to-market objectives.",
+      },
+      {
+        role: "Marketing Assistant",
+        company: "Pizza Port Brewing Company",
+        period: "11/2013 — 03/2017",
+        summary:
+          "Executed influencer and social growth initiatives that scaled the brand's audience from 5K to 100K followers, improving organic reach and engagement efficiency.",
+      },
+      {
+        role: "Marketing Intern",
+        company: "Skeleton Crew Media",
+        period: "02/2012 — 11/2013",
+        summary:
+          "Supported digital and print advertising for action-sports brands and assisted with multi-state event activations.",
+      },
+    ],
+    education: [
+      {
+        school: "University of Utah",
+        credential: "B.S. Communications",
+      },
+    ],
+    speaking: [
+      {
+        title:
+          "Positioning a Brewery's Brand Through Social Media — California Craft Brewers Conference",
+        description:
+          "Delivered a presentation on effective digital strategies for increasing brand visibility and engagement in the craft beer industry.",
       },
     ],
   },
