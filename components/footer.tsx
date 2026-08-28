@@ -20,22 +20,6 @@ export function Footer() {
             >
               LinkedIn
             </a>
-            <a
-              href={siteConfig.social.twitter}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="hover:text-neutral-900 dark:hover:text-neutral-100"
-            >
-              Twitter
-            </a>
-            <a
-              href={siteConfig.social.instagram}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="hover:text-neutral-900 dark:hover:text-neutral-100"
-            >
-              Instagram
-            </a>
           </div>
         </div>
       </Container>

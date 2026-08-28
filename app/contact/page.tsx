@@ -91,6 +91,17 @@ export default function ContactPage() {
             </div>
             <div>
               <h2 className="text-sm font-medium text-neutral-500 dark:text-neutral-400">
+                Phone
+              </h2>
+              <a
+                href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}
+                className="mt-1 block text-lg text-neutral-900 hover:underline dark:text-neutral-100"
+              >
+                {siteConfig.phone}
+              </a>
+            </div>
+            <div>
+              <h2 className="text-sm font-medium text-neutral-500 dark:text-neutral-400">
                 Location
               </h2>
               <p className="mt-1 text-lg text-neutral-900 dark:text-neutral-100">
@@ -109,22 +120,6 @@ export default function ContactPage() {
                   className="text-neutral-900 hover:underline dark:text-neutral-100"
                 >
                   LinkedIn
-                </a>
-                <a
-                  href={siteConfig.social.twitter}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="text-neutral-900 hover:underline dark:text-neutral-100"
-                >
-                  Twitter
-                </a>
-                <a
-                  href={siteConfig.social.instagram}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="text-neutral-900 hover:underline dark:text-neutral-100"
-                >
-                  Instagram
                 </a>
               </div>
             </div>
